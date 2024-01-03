@@ -3,7 +3,8 @@
 
 ## Overview
 
-Welcome to the Game Engine Programming project! This project is a hands-on exploration of fundamental concepts, architecture, design, and programming involved in creating a multi-platform game engine. Throughout the project you will dive into industry-standard programming languages and tools, covering key topics such as the game loop, graphics pipeline, input handling, physics simulation, audio playback, scripting, and asset management.
+This is a 'minimum dependency' game engine. There are gazillion engines, libraries and frameworks that can do this automatically with much less code, but this projects principle was to gain proper understanding of the required inner workings. In real life though, it does not make much sense to do everything from the scratch. The 'Engine' parts are included in 'core' folder of the project. This includes a snapshot copy of the glm math library and stb-image for texture loading. In real world, the engine bits should be built into its own library.
+
 
 ## Learning Outcomes
 
