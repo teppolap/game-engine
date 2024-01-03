@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{16d931bb-7a82-413c-9241-358a6a1bc3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\include">
+      <UniqueIdentifier>{6177b0ef-701f-4f92-825b-4b1cb822b20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\src">
+      <UniqueIdentifier>{1d5f16e0-4fee-47a3-9719-5aa70de2a4ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Timer.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\IRenderer.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\OpenGLRenderer.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Geometry.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Material.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\Node.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\GeometryNode.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\CameraNode.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\src\IApplication_win32.cpp">
+      <Filter>core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\core\include\IApplication.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Timer.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\IRenderer.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\OpenGLRenderer.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Geometry.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Material.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\Node.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\GeometryNode.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\include\CameraNode.h">
+      <Filter>core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phongshader.vert" />
+    <None Include="phongshader.frag" />
+  </ItemGroup>
+</Project>
